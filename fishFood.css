@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+/* header */
+body {
+    background-image: url(image/fond.png);
+    background-size: cover;
+
+}
+
+header {
+    border: 4px solid #2f9696;
+    margin-top: 80px;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: #34b1b2;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+/* hada nhydo o ndiro f heder */
+div.logo {
+    text-align: center;
+}
+/* khasna n ajoutiw header bach maytkhrb9ch lina l code mnin najotiw autre li et ul */
+ul li {
+    display: inline-block;
+    color: white;
+
+}
+
+li {
+    text-transform: capitalize;
+    font-size: larger;
+
+}
+
+.espace {
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+/* main */
+
+.paragraph {
+    color: gray;
+    text-align: center;
+}
+
+.paragraph h2 {
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 40px;
+
+}
+
+
+
+.paragraph p {
+    width: 500px;
+    font-size: large;
+    line-height: 1.5;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+/* section */
+
+
+section.section {
+    border: 1px solid #D3EEEE;
+    background-color: #D3EEEE;
+    color: #66898C;
+    height: 1150px;
+    width: 667px;
+    display: inline-block;
+
+
+}
+
+.section h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+
+h1::before {
+    content: "Today's";
+    color: #34b1b2;
+}
+
+.box1 h3 {
+    font-size: x-large;
+
+}
+
+div.box1 {
+    width: 300px;
+    display: inline-block;
+}
+
+div.box1 img {
+    border-radius: 90px;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    -ms-border-radius: 90px;
+    -o-border-radius: 90px;
+    float: left;
+}
+
+.box1 h3 {
+    margin-left: 90px;
+}
+
+div.box1 p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.box1 img p.crusty-fish {
+    margin-left: 30px;
+}
+
+.box1 article {
+    margin-left: 30px;
+    float: left;
+}
+
+.fa-solid {
+    color: #34b1b2;
+
+}
+
+article.article-box2 img .multifish {
+    float: left;
+
+}
+
+div.block {
+    display: inline-block;
+    margin-left: 40px;
+
+
+
+}
+
+.btn {
+    background-color: #34b1b2;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    float: right;
+    margin-top: 30px;
+}
+
+div.ftr img {
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+
+
+
+}
+
+.ftr {
+    text-align: center;
+}
+
+.new .abs {
+    position: absolute;
+    top: -60px;
+    right: -80px;
+
+}
+
+section.new {
+    background-color: #34b1b2;
+    border: 4px solid #2f9696;
+    width: 308px;
+    height: 900px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    padding-left: 10px;
+    position: relative;
+
+}
+
+
+
+.new h3 {
+    float: left;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+
+
+}
+
+.new h3::before {
+    content: "New";
+    color: #D3EEEE;
+    font-size: 20px;
+
+}
+
+div.help {
+    float: left;
+
+
+}
+
+.help div p {
+    float: left;
+
+}
+
+main {
+    margin: auto;
+    width: 1020px;
+}
+
+
+.new h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.new .help {
+    padding-left: 20px;
+}
+
+.help div {
+    color: #D3EEEE;
+}
+
+.help p {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: larger;
+    width: 220px;
+}
+
+aside {
+    margin-top: 40px;
+}
